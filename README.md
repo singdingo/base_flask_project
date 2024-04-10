@@ -5,16 +5,16 @@ After cloning the base Flask project:
 
 To create a vitual environment.
 - Go in to your project folder
-> python -m venv <virtual_environment_name>
-> source <virtual_environment_name>/bin/activate
+- python -m venv <virtual_environment_name>
+- source <virtual_environment_name>/bin/activate
 
 To deactivate the virtual environment
-> deactivate
+- deactivate
 
 To create the necessary environment variables, in a command line in your virtual env:
-> export FLASK_ENV=development
-> export FLASK_APP=hello.py
-> export FLASK_DEBUG=1
+- export FLASK_ENV=development
+- export FLASK_APP=hello.py
+- export FLASK_DEBUG=1
 
 This will allow you to run the app in debug mode. Any changes will automatically restart the web server.
 
