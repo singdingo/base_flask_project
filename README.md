@@ -20,6 +20,8 @@ This will allow you to run the app in debug mode. Any changes will automatically
 
 You may call your main entry point file anything. In this case, it's hello.py, but yours could be app.py or anything else. 
 
+TO RUN THE APP
+- flask run
 
 FEATURES OF THE BASE FLASK PROJECT
 - Base level app set up
